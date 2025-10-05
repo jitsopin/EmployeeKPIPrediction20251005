@@ -7,7 +7,7 @@ import seaborn as sns
 import pickle
 
 # Load model and encoders
-with open('67130701719_model_kpi.pkl', 'rb') as file:
+with open('model_kpi.pkl', 'rb') as file:
     model, department_encoder, region_encoder, education_encoder, gender_encoder, recruitment_channel_encoder = pickle.load(file)
 
 # Load your DataFrame
